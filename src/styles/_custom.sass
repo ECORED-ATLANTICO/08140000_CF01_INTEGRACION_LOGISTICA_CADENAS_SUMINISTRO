@@ -36,12 +36,15 @@ figcaption, table caption
 
 .banner-principal__row .banner-principal__img
   width: 500px !important
+  padding-bottom: 1rem !important
+  padding-top: 1rem !important
+  padding-right: 1rem !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
+  background-color: $color-secundario-s5 !important
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
@@ -54,56 +57,95 @@ figcaption, table caption
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
+
+.banner-text
+  background: $white
+  border-radius: 10px
+  padding: 20px
+  margin-top: -30px
+  @media screen and (min-width: $bp-min-md)
+    padding: 20px 30px
+    margin-top: -80px
+
+.bg-botones-a5
+  background-color: $color-acento-botones-a5
+.bg-contenido-a10
+  background-color: $color-acento-contenido-a10
+.bg-primario-p5
+  background-color: $color-primario-p5
+.bg-secundario-s5
+  background-color: $color-secundario-s5
+
+.bg-slider
+  background: url('../assets/curso/common/bg-slider.png')
   background-size: cover
+  background-position: center
   background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
 
+.bg-audio
+  background-color: $color-acento-contenido-a5
+  @media screen and (min-width: $bp-min-lg)
+    background: url('../assets/curso/common/bg-audio.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 
-
-
-
-
-
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
-
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
+.slyder-a
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    background-image: url('../assets/curso/common/white-arrow.svg')
+    box-shadow: none
+  .slyder-a__bullets__item
+    background-color: $color-terciario
+    border-color: $color-terciario
+  &__bullets__item
+    margin: 0 4px
+    @media (min-width: $bp-min-sm)
+      margin: 0 10px
   
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
+.slyder-f
+  align-items: center
+  border-radius: 20px
 
-  
+  .slyder-f__main
+    width: 70%
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
+    @media (min-width: 769px)
+      width: 80%
 
-  
- 
+.slyder-f__btn
+  height: 40px
+  width: 40px
+  max-width: 40px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  color: $white
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+
+.tabs-a
+  &__tab
+    background-color: $color-acento-contenido-a10
+  .col-lg-4.col-xl-3
+    @media screen and (min-width: $bp-min-lg)
+      width: 37%
+  .col-lg-8.col-xl-9
+    @media screen and (min-width: $bp-min-lg)
+      width: 63%
+
+.linea-tiempo-d
+  &__item__number
+    background-color: $color-adicional-1
+  &__item__content
+    background-color: $color-acento-contenido
+  &__item.linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: $color-secundario-s5
+
+.barra-avance__boton--regresar span
+  color: $white !important

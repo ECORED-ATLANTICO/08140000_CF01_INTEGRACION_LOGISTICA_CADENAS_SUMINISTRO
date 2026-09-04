@@ -1,19 +1,11 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Fundamentos de la cadena de suministro y procesos logísticos',
+    Description:
+      'El componente formativo aborda los fundamentos de la cadena de suministro y su articulación con los procesos logísticos de abastecimiento, transporte, almacenamiento, distribución e inventarios. Integra el análisis de productos, servicios, demanda, proveedores, compras y costos logísticos, con el fin de comprender la operación de la red de suministro y su incidencia en la eficiencia empresarial, la planeación de recursos y la toma de decisiones en contextos organizacionales.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
-      },
-      {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -31,40 +23,114 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Redes de suministro y cadena de suministro',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto, nodos, y flujos logísticos ',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              '<em>Supply Chain Management</em> (SCM) y articulación de procesos logísticos',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Productos, servicios y demanda en la cadena de suministro',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Productos, servicios, portafolio, empaque y embalaje',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Análisis y proyección de la demanda',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Proveedores, compras y abastecimiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Proveedores, contratos y sistemas de entrega',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Compras, abastecimiento y <em>lead time</em> de pedido y entrega',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Transporte y distribución en la operación logística',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Medios, modos, red y contrato de transporte',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Distribución, DRP, <em>marketing</em> logístico y legislación aplicada',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Almacenamiento e inventarios',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Almacenamiento y costos asociados',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Sistemas de inventarios, recibo y despacho de mercancías',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Costos logísticos y eficiencia operativa',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Costos y gastos logísticos: conceptos y clasificación',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo:
+              'Costeo basado en actividades (ABC) y análisis de eficiencia logística',
+            hash: 't_6_2',
+          },
+        ],
       },
     ],
     subMenu: [
