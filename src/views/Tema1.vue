@@ -298,7 +298,7 @@
                     span Ir al recurso
 
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-sm-10.col-lg-5.d-none.d-sm-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema1/17.png", alt="" data-aos="zoom-in-down")
