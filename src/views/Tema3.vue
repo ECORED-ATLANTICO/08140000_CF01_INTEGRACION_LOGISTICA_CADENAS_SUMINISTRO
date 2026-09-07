@@ -21,7 +21,7 @@
       .row.justify-content-center.align-items-center
         .col-4.col-lg-2
           figure
-            img.imgw-110.mb-4.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/tema3/18.png", alt="")
+            img.imgw-110.mb-4.mb-lg-0(src="@/assets/curso/tema3/18.png", alt="" data-aos="zoom-in-down")
         .col-lg-10
           p.mb-0 Los proveedores son entidades que aportan bienes y servicios a la empresa para cumplir con sus objetivos. Son fundamentales para la cadena de suministro, ya que proporcionan los recursos necesarios para la producción y distribución de productos.
           p.mb-0 La gestión de proveedores es esencial para garantizar la continuidad del suministro, la calidad de los productos y el cumplimiento de los plazos de entrega.
@@ -34,7 +34,7 @@
           p.mb-4.mb-lg-0 #[strong Ejemplo:] una empresa de bebidas puede tener proveedores de azúcar, envases, etiquetas, equipos industriales, mantenimiento y servicios de transporte.      
         .col-sm-8.col-lg-4
           figure
-            img(data-aos="fade-up")(src="@/assets/curso/tema3/2.png", alt="")
+            img(src="@/assets/curso/tema3/2.png", alt="")
       
       .p-4.row.justify-content-center.align-items-center(titulo="Según el nivel de especialización")
         .col-lg-7
@@ -42,28 +42,28 @@
           p.mb-4.mb-lg-0 #[strong Ejemplo:] un proveedor especializado suministra sensores, repuestos y soporte técnico para los sistemas automatizados utilizados en un centro de distribución.
         .col-sm-8.col-lg-4
           figure
-            img(data-aos="fade-up")(src="@/assets/curso/tema3/3.png", alt="")
+            img(src="@/assets/curso/tema3/3.png", alt="")
       .p-4.row.justify-content-center.align-items-center(titulo="Según la ubicación geográfica ")
         .col-lg-7
           p Toma como referencia la localización del proveedor frente a las instalaciones de la empresa, permitiendo identificar proveedores locales, regionales, nacionales o internacionales. La distancia puede afectar tiempos de reposición, costos de transporte, disponibilidad y riesgos de abastecimiento. 
           p.mb-4.mb-lg-0 #[strong Ejemplo:] una empresa colombiana compra empaques a un proveedor nacional y componentes para maquinaria a un fabricante ubicado en Alemania.
         .col-sm-8.col-lg-4
           figure
-            img(data-aos="fade-up")(src="@/assets/curso/tema3/4.png", alt="")
+            img(src="@/assets/curso/tema3/4.png", alt="")
       .p-4.row.justify-content-center.align-items-center(titulo="Según la frecuencia de abastecimiento")
         .col-lg-7
           p Está relacionada con la periodicidad requerida para recibir materiales, productos o servicios. Las entregas pueden ser diarias, semanales, mensuales, programadas u ocasionales, dependiendo del consumo, rotación del inventario, capacidad de almacenamiento y continuidad de la operación. 
           p.mb-4.mb-lg-0 #[strong Ejemplo:] un supermercado recibe productos lácteos diariamente, mientras que determinados equipos y repuestos pueden solicitarse de manera ocasional según las necesidades operativas. 
         .col-sm-8.col-lg-4
           figure
-            img(data-aos="fade-up")(src="@/assets/curso/tema3/5.png", alt="")
+            img(src="@/assets/curso/tema3/5.png", alt="")
       .p-4.row.justify-content-center.align-items-center(titulo="Según la relación comercial establecida")
         .col-lg-7
           p Refleja el grado de continuidad, confianza, importancia y colaboración existente entre proveedor y empresa. La relación puede evolucionar desde compras ocasionales hasta vínculos habituales, preferentes o estratégicos que incluyen acuerdos de largo plazo e intercambio de información. 
           p.mb-4.mb-lg-0 #[strong Ejemplo:] un fabricante mantiene una relación estratégica con su proveedor principal de materia prima, compartiendo pronósticos de demanda para programar anticipadamente las entregas. 
         .col-sm-8.col-lg-4
           figure
-            img(data-aos="fade-up")(src="@/assets/curso/tema3/6.png", alt="")
+            img(src="@/assets/curso/tema3/6.png", alt="")
   
     .row.justify-content-center.align-items-center.mb-4
       .col-sm-10.col-lg-5.d-none.d-lg-block

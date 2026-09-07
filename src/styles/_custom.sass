@@ -97,6 +97,9 @@ figcaption, table caption
 .imgw-110
   width: 110px
   margin: 0 auto
+.imgw-135
+  width: 135px
+  margin: 0 auto
 
 .slyder-a
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
@@ -163,3 +166,33 @@ figcaption, table caption
     margin-bottom: 0 
   &__content-item
     background-color: $color-primario-p5
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #CEDAF8
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.linea-custom
+  .linea-tiempo-d__item__content__title
+    height: 50px
+    @media screen and (min-width: $bp-min-md)
+      height: 40px
