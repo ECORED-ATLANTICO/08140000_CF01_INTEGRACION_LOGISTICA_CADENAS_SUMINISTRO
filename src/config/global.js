@@ -175,14 +175,131 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Abastecimiento',
+      significado:
+        'Proceso mediante el cual la organización asegura la disponibilidad de bienes, insumos o servicios requeridos para el desarrollo de sus operaciones, a través de la planeación de compras, selección de proveedores y control de entregas.',
+    },
+    {
+      termino: 'Almacenamiento',
+      significado:
+        'Proceso logístico orientado a resguardar, conservar, organizar y controlar materiales o productos dentro de instalaciones destinadas a su recepción, ubicación, custodia y despacho.',
+    },
+    {
+      termino: 'Cadena',
+      significado:
+        'Conjunto de procesos, actores, recursos y actividades que intervienen en el flujo de bienes, servicios, información y recursos financieros desde el proveedor hasta el cliente final.',
+    },
+    {
+      termino: 'Costos logísticos',
+      significado:
+        'Recursos económicos asociados a la ejecución de actividades de abastecimiento, almacenamiento, transporte, inventarios, distribución y servicio al cliente dentro de la cadena de suministro.',
+    },
+    {
+      termino: 'Demanda',
+      significado:
+        'Cantidad de productos o servicios que los clientes requieren en un periodo determinado, la cual orienta las decisiones de abastecimiento, inventarios, transporte y distribución.',
+    },
+    {
+      termino: 'Distribución',
+      significado:
+        'Proceso logístico encargado de hacer llegar los productos desde los centros de producción o almacenamiento hasta los puntos de venta o clientes finales, en condiciones adecuadas de tiempo, lugar y cantidad.',
+    },
+    {
+      termino: 'DRP',
+      significado:
+        'Herramienta de planeación que permite programar la reposición y el desplazamiento de productos dentro de la red de distribución, con base en la demanda, los inventarios y los tiempos de entrega.',
+    },
+    {
+      termino: 'Embalaje',
+      significado:
+        'Conjunto de materiales y técnicas utilizados para proteger los productos durante su manipulación, almacenamiento, transporte y distribución.',
+    },
+    {
+      termino: 'Empaque',
+      significado:
+        'Presentación o envoltura que contiene, protege e identifica el producto para su comercialización, conservación y manipulación.',
+    },
+    {
+      termino: 'Inventario',
+      significado:
+        'Conjunto de materiales, insumos, productos en proceso o productos terminados que la empresa mantiene disponibles para atender la operación o la demanda del mercado.',
+    },
+    {
+      termino: '<em>Lead time</em>',
+      significado:
+        'Tiempo transcurrido entre la identificación de una necesidad, la emisión de un pedido y la entrega efectiva del bien o servicio solicitado.',
+    },
+    {
+      termino: 'Logística',
+      significado:
+        'Proceso de planeación, ejecución y control del flujo y almacenamiento de bienes, servicios e información, desde el punto de origen hasta el punto de consumo, con el propósito de satisfacer los requerimientos del cliente.',
+    },
+    {
+      termino: 'Proveedor',
+      significado:
+        'Persona natural o jurídica encargada de suministrar bienes, insumos o servicios requeridos por la organización para el desarrollo de su operación.',
+    },
+    {
+      termino: 'SCM',
+      significado:
+        'Enfoque estratégico de gestión orientado a planificar, coordinar, ejecutar y controlar de manera integral los procesos de la cadena de suministro.',
+    },
+    {
+      termino: 'Transporte',
+      significado:
+        'Proceso logístico encargado de movilizar materias primas, insumos o productos terminados entre los distintos nodos de la cadena de suministro.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Anaya Tejero, J. J. (2015). <em>Logística integral: la gestión operativa de la empresa</em> (5.ª ed.). ESIC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Bowersox, D. J., Closs, D. J., & Cooper, M. B. (2007). <em>Administración y logística en la cadena de suministros</em> (2.ª ed.). McGraw-Hill Interamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Chopra, S., & Meindl, P. (2008). <em>Administración de la cadena de suministro: estrategia, planeación y operación</em> (3.ª ed.). Pearson Educación.',
+      link: 'https://gc.scalahed.com/recursos/files/r161r/w24567w/Sunil_Chopral.pdf',
+    },
+    {
+      referencia:
+        'Christopher, M. (2018). <em>Logística y gestión de la cadena de suministro</em> (5.ª ed.). Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC). (2020). <em>Normas técnicas aplicables al empaque, embalaje y rotulado de mercancías</em>.',
+      link: 'https://www.icontec.org',
+    },
+    {
+      referencia:
+        'Ministerio de Transporte de Colombia. <em>Documentos técnicos sobre logística y transporte de carga</em>.',
+      link: 'https://www.mintransporte.gov.co',
+    },
+    {
+      referencia:
+        'Mora García, L. A. (2023). <em>Gestión logística integral: las mejores prácticas en la cadena de abastecimiento</em> (3.ª ed.). Ecoe Ediciones.',
+      link: 'https://www.ecoeediciones.com/wp-content/uploads/2023/01/9789585035676-9789585035683-Gestion-logistica-integral.-Las-mejores-practicas-en-la-cadena-de-abastecimiento-3ra-edicion-contenido.pdf',
+    },
+    {
+      referencia:
+        'Paternina Arboleda, C., Alfaro Díaz, J., & Mendoza Roca, C. (2015). <em>Manual práctico para gestión logística: envase y embalaje, transporte y cadena de frío</em>. Editorial Universidad del Norte.',
+      link: '',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio. (2023). <em>Etiquetado y rotulado de productos en Colombia</em>.',
+      link: 'https://www.sic.gov.co',
+    },
+    {
+      referencia:
+        'Torres Rabello, J. (2014). <em>Logística: conceptos y tendencias</em>. Editorial RIL.',
+      link: '',
     },
   ],
   creditos: [
@@ -226,12 +343,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andres Felipe Arias Gonzalez',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura muestra la estructura jerárquica del componente formativo: Fundamentos de la cadena de suministro y de los procesos logísticos, el cual esta orientado a comprender integralmente el funcionamiento de la cadena de suministro y los procesos logísticos. La información se organiza en áreas interrelacionadas que abarcan la planificación, coordinación y ejecución de las operaciones, desde el abastecimiento hasta la entrega. Asimismo, integra aspectos relacionados con la gestión de recursos, mercancías, información y costos, destacando la articulación entre los diferentes procesos para favorecer la eficiencia operativa, el control y la toma de decisiones logísticas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
