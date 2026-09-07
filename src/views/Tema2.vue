@@ -173,11 +173,108 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Análisis y proyección de la demanda
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-8.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema2/18.png", alt="" data-aos="zoom-in-down")
+      .col-lg-8
+        p La demanda representa la cantidad de productos o servicios que los clientes requieren en un periodo determinado, bajo condiciones específicas de precio, disponibilidad y contexto de mercado. En la cadena de suministro, su análisis es fundamental porque orienta las decisiones relacionadas con compras, abastecimiento, producción, almacenamiento, inventarios, transporte y distribución. Una gestión logística eficiente depende, en gran medida, de la capacidad de la organización para anticipar el comportamiento de la demanda y ajustar sus recursos de manera oportuna.
+        p.mb-0 La demanda puede clasificarse de distintas formas entre las cuales tenemos:
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-lg-8
+        .bg-slider.p-3.p-md-4.rounded-4.mb-4.mb-lg-0
+          .tarjeta.tarjeta--blanca.p-4
+            SlyderA(tipo="b")
+              div.p-4
+                h4 Demanda independiente 
+                p Surge directamente de las necesidades del mercado y no depende de otro producto.  
+                p.mb-0 #[strong Ejemplo:] la cantidad de botellas de agua solicitadas por supermercados depende principalmente del comportamiento de sus consumidores. 
+              div.p-4
+                h4 Demanda dependiente 
+                p Está determinada por la cantidad requerida de otro producto, generalmente dentro de un proceso productivo.  
+                p.mb-0 #[strong Ejemplo:] producir 5.000 bebidas genera una necesidad calculable de botellas, tapas y etiquetas. 
+              div.p-4
+                h4 Demanda estable 
+                p Mantiene un comportamiento relativamente constante durante un periodo, con variaciones previsibles y moderadas.  
+                p.mb-0 #[strong Ejemplo:] un restaurante puede mantener un consumo semanal similar de productos básicos utilizados regularmente en su operación. 
+              div.p-4
+                h4 Demanda estacional 
+                p Presenta aumentos o disminuciones previsibles en determinados periodos debido a temporadas, celebraciones o condiciones climáticas. 
+                p.mb-0 #[strong Ejemplo:] la demanda de juguetes aumenta considerablemente durante la temporada navideña. 
+              div.p-4
+                h4 Demanda irregular o fluctuante 
+                p Presenta variaciones frecuentes o poco previsibles, dificultando anticipar cantidades y momentos de consumo.  
+                p.mb-0 #[strong Ejemplo:] la demanda de ciertos productos puede aumentar repentinamente por promociones, tendencias del mercado o eventos inesperados. 
 
+      .col-sm-8.col-lg-4
+        figure
+          img(data-aos="fade-down-right", src="@/assets/curso/tema2/19.png", alt="")
+    
+    .bg-contenido-a10.rounded-4.p-4.mb-4.mb-lg-5
+      .row.justify-content-center.align-items-center
+        .col-4.col-lg-2.col-xl-1.d-none.d-lg-block
+          img.imgw-90(src="@/assets/curso/tema2/14.png", alt="" data-aos="zoom-in-down")
+        .col-lg-10.col-xl-11
+          p.mb-0 Para responder de manera adecuada a estas variaciones, las organizaciones realizan proyecciones de demanda, entendidas como estimaciones sobre el comportamiento futuro de las ventas, los pedidos o el consumo. Estas proyecciones permiten anticipar necesidades de inventario, programar compras, asignar capacidad de almacenamiento, coordinar transporte y reducir riesgos asociados al desabastecimiento o al exceso de existencias. En este sentido, proyectar la demanda no solo es una tarea comercial, sino una herramienta esencial para la planeación logística y la sostenibilidad operativa del negocio. 
 
+    AcordionA(tipo="a" clase-tarjeta="tarjeta color-acento-contenido").mb-5
+      .row.justify-content-center.align-items-center.py-4.p-lg-0(titulo="Cuantitativo")
+        .col-lg-7
+          p Utiliza datos históricos y técnicas matemáticas o estadísticas para identificar comportamientos y estimar la demanda futura. Puede emplear promedios móviles, tendencias, suavización exponencial o modelos de series de tiempo. 
+          p.mb-4.mb-lg-0 #[strong Ejemplo:] una empresa registra ventas mensuales de bebidas de los últimos dos años y utiliza un promedio móvil para estimar las unidades requeridas durante los próximos meses. 
+        .col-sm-8.col-lg-4
+          figure
+            img(src='@/assets/curso/tema2/20.png', alt='')
+      .row.justify-content-center.align-items-center.py-4.p-lg-0(titulo="Cualitativo")
+        .col-lg-7
+          p Utiliza conocimientos, experiencia y opiniones cuando los datos históricos son insuficientes o el mercado presenta cambios importantes. Puede apoyarse en expertos, vendedores, clientes, investigaciones de mercado o método Delphi. 
+          p.mb-4.mb-lg-0 #[strong Ejemplo:] antes de lanzar un nuevo alimento, la empresa consulta expertos comerciales y clientes potenciales para estimar la aceptación y las cantidades que podría demandar el mercado. 
+        .col-sm-8.col-lg-4
+          figure
+            img(src='@/assets/curso/tema2/21.png', alt='')
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-8.col-lg-4.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema2/22.png", alt="" data-aos="zoom-in-down")
+      .col-lg-8
+        p.mb-0 La combinación de métodos cuantitativos y cualitativos fortalece la capacidad de la organización para interpretar el comportamiento de la demanda y tomar decisiones más acertadas. Una proyección inadecuada puede generar sobrecostos por exceso de inventario, incumplimientos por falta de producto, subutilización de recursos o deterioro del servicio al cliente. Por ello, el análisis de la demanda constituye un proceso clave para articular la cadena de suministro con las necesidades reales del mercado y mejorar la eficiencia de la operación logística. 
 
+    .bg-secundario-s5.rounded-4.p-4.mb-4.mb-lg-5
+      h5 Ejemplo empresarial:
+      p En Panamericana, la demanda de cuadernos, textos escolares, morrales y útiles aumenta significativamente en temporadas como el regreso a clases.
+      p.mb-0 Para anticipar este comportamiento, la empresa debe revisar históricos de ventas, analizar tendencias estacionales y proyectar volúmenes de abastecimiento por sede o canal. Esta información permite programar compras, ajustar inventarios, reservar espacio de almacenamiento y coordinar transporte de manera anticipada, reduciendo riesgos de faltantes o sobre inventarios durante la temporada alta. 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xl-10
+        .tarjeta.bg-primario-p5.p-4.p-lg-3
+          .row.justify-content-around.align-items-center
+            .col-2.col-lg-1.d-none.d-sm-block
+              img.imgw-72(src="@/assets/curso/tema1/25.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h5.mb-1 Planeación de la demanda en la cadena de suministro
+                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con productos, servicios y demanda en la cadena de suministro: 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=QKxiR3Uq4G0" target="_blank")
+                    span Ir al recurso
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xl-10
+        .tarjeta.bg-primario-p5.p-4.p-lg-3
+          .row.justify-content-around.align-items-center
+            .col-2.col-lg-1.d-none.d-sm-block
+              img.imgw-72(src="@/assets/curso/tema1/26.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h5.mb-1 Sistema de proyección de la demanda. Caso práctico de predicción automatizada en empresas de venta por catálogo.
+                  p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a productos, servicios y demanda en la cadena de suministro, a través del siguiente artículo: 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.redalyc.org/pdf/6722/672271530002.pdf" target="_blank")
+                    span Ir al recurso
 
 
 </template>

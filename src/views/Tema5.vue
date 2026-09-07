@@ -243,14 +243,6 @@
                   a.boton.color-acento-botones.texto-blanco(href="https://www.redalyc.org/pdf/4655/465545892008.pdf" target="_blank")
                     span Ir al recurso
 
-
-
-
-
-
-
-
-
 </template>
 
 <script>
