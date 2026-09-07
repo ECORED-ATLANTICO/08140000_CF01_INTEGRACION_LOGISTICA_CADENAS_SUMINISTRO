@@ -100,6 +100,12 @@ figcaption, table caption
 .imgw-135
   width: 135px
   margin: 0 auto
+.imgw-75
+  width: 75px
+  margin: 0 auto
+.imgw-90
+  width: 90px
+  margin: 0 auto
 
 .slyder-a
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
@@ -196,3 +202,17 @@ figcaption, table caption
     height: 50px
     @media screen and (min-width: $bp-min-md)
       height: 40px
+
+.acordion
+  &__accion__btn--a
+    background-color: $color-acento-botones
+    i
+      color: $white !important
+  .acordion__activo
+    background-color: $color-secundario-s5
+    p, h3, strong
+      color: $color-sistema-texto !important
+
+.tabs-c
+  &__content-item
+    background-color: #F7F7F7
