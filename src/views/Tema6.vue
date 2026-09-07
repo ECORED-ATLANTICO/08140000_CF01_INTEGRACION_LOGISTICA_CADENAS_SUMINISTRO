@@ -86,7 +86,7 @@
         div.banner-text.shadow.mb-3
           p.mb-0 El costeo basado en actividades (ABC, #[em Activity-Based Costing]) es una metodología que permite identificar, clasificar y asignar los costos a partir de las actividades reales que se desarrollan en la operación. En el contexto logístico, este enfoque resulta especialmente útil porque no se limita a distribuir costos de manera general, sino que permite reconocer cuánto consume cada proceso de abastecimiento, almacenamiento, transporte, inventario, preparación de pedidos o distribución. La lógica del costeo ABC parte de que los productos o servicios no consumen recursos de forma directa, sino a través de las actividades necesarias para su gestión. El método es el siguiente: 
     
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-4
       .col-sm-12.col-lg-6
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down", src="@/assets/curso/tema6/5.png", alt="")
@@ -101,8 +101,90 @@
           h5.mb-0 Asignar costos según consumo
           p.mb-0 Se asignan los costos a productos, procesos o clientes de acuerdo con el nivel de consumo de cada actividad.
 
+    .bg-contenido-a10.rounded-4.p-4.mb-4.py-3
+      p.mb-0.text-center Aplicado a la cadena de suministro, el costeo ABC permite analizar actividades como:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-7
+        LineaTiempoD.color-acento-botones.mb-4.mb-lg-5
+          div(numero="1" titulo="Recepción de mercancías")
+            p.mb-0 Descarga e inspección de los productos recibidos de proveedores.
+          div(numero="2" titulo="Control de inventarios")
+            p.mb-0 Monitoreo de existencias, conteos y análisis para asegurar disponibilidad y exactitud.
+          div(numero="3" titulo="<em>Picking</em>")
+            p.mb-0 Selección y alistamiento de los productos solicitados por el cliente.
+          div(numero="4" titulo="Embalaje")
+            p.mb-0 Protección y preparación de los productos para su transporte.
+          div(numero="5" titulo="Cargue y transporte")
+            p.mb-0 Carga de los productos en el vehículo y traslado desde el origen hasta el destino final.
+          div(numero="6" titulo="Almacenamiento")
+            p.mb-0 Ubicación y custodia de los productos en condiciones óptimas dentro de la bodega.
+      .col-sm-10.col-lg-5
+        figure
+          img(data-aos="fade-down-right", src="@/assets/curso/tema6/6.png", alt="")
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-10.col-lg-5.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema6/7.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7 
+        p Este análisis se relaciona directamente con la eficiencia logística, entendida como la capacidad de ejecutar los procesos de la cadena de suministro utilizando de manera óptima el tiempo, el espacio, los recursos humanos, la infraestructura y los costos disponibles, sin afectar la calidad del servicio. Una operación logística eficiente no es solo aquella que reduce costos, sino la que logra equilibrio entre productividad, oportunidad, cumplimiento y satisfacción del cliente. 
+        .p-4.py-3.rounded-4.bg-primario-p5
+          p.mb-0 En consecuencia, el costeo basado en actividades y el análisis de eficiencia logística constituyen herramientas clave para la toma de decisiones en la organización. Su aplicación permite mejorar la visibilidad de los costos, fortalecer la planeación operativa, optimizar recursos y orientar acciones de mejora continua dentro de la cadena de suministro. 
+
+    .bg-secundario-s5.rounded-4.p-4.mb-4
+      h5 Ejemplo empresarial: 
+      p En Mercado Libre, la operación logística asociada al almacenamiento, clasificación, <em>picking</em>, empaque y despacho de pedidos puede analizarse mediante costeo basado en actividades (ABC), identificando cuánto consume cada proceso en tiempo, espacio, personal y recursos tecnológicos.  
+      p.mb-0 Si el análisis muestra que la preparación de pedidos o el alistamiento consume más recursos de los previstos, la empresa puede reorganizar la operación, ajustar #[em layout], redistribuir tareas o automatizar procesos para mejorar la eficiencia logística y reducir sobrecostos. 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xl-10
+        .tarjeta.bg-primario-p5.p-4.p-lg-3
+          .row.justify-content-around.align-items-center
+            .col-2.col-lg-1.d-none.d-sm-block
+              img.imgw-72(src="@/assets/curso/tema1/25.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h5.mb-1 Webinar "Costos Logísticos, cómo calcularlos y su importancia para la operación"
+                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con costos logísticos y eficiencia operativa: 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=eD6VqdcMwdk" target="_blank")
+                    span Ir al recurso
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xl-10
+        .tarjeta.bg-primario-p5.p-4.p-lg-3
+          .row.justify-content-around.align-items-center
+            .col-2.col-lg-1.d-none.d-sm-block
+              img.imgw-72(src="@/assets/curso/tema1/26.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h5.mb-1 Costos logísticos y metodologías para el costeo en cadenas de suministro: una revisión de la literatura
+                  p.mb-0 Se invita al aprendiz a profundizar con costos logísticos y eficiencia operativa, a través del siguiente artículo: 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.redalyc.org/pdf/3836/383668911007.pdf " target="_blank")
+                    span Ir al recurso
 
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-10.col-lg-5.d-none.d-sm-block
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema6/8.png", alt="" data-aos="zoom-in-down")
+      .col-lg-7
+        .bg-audio.p-4.rounded-4
+          .row.justify-content-center.align-items-center
+            .col-4.col-xl-3.d-none.d-sm-block
+              figure
+                img.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="" data-aos="zoom-in-down")
+            .col-sm-7
+              p A continuación, se invita a ir al siguiente pódcast: 
+              TarjetaAudio.color-secundario.mb-4(
+                texto="“Charlas logísticas”. Episodio: “Costos logísticos y eficiencia operativa”"
+                tiempo
+                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+              )
 
 </template>
 

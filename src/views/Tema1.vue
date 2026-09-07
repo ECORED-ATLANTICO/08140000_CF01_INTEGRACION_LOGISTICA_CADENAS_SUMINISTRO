@@ -214,7 +214,6 @@
             p.mb-0 Entrega productos al cliente final según acuerdos de servicio, asegurando satisfacción y cumplimiento.
           div(numero="8" titulo="Servicio posventa")
             p.mb-0 Atiende solicitudes, reclamos y soporte posventa para fortalecer la relación y la lealtad del cliente.
-
       .col-sm-8.col-lg-4
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/14.png", alt="")
