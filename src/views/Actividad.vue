@@ -31,7 +31,7 @@ export default {
           id: 1,
           texto:
             '¿Qué se entiende por cadena de suministro en una organización?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -67,7 +67,7 @@ export default {
           id: 2,
           texto:
             '¿Cuál de los siguientes elementos corresponde a un nodo de la red de suministro?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -100,7 +100,7 @@ export default {
           id: 3,
           texto:
             '¿Qué flujo de la cadena de suministro se relaciona con pedidos, reportes e información entre actores?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -133,7 +133,7 @@ export default {
           id: 4,
           texto:
             '¿Cuál es la función principal del empaque en la cadena de suministro?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -167,7 +167,7 @@ export default {
           id: 5,
           texto:
             '¿Qué aspecto analiza la proyección de la demanda dentro de la operación logística?',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -200,7 +200,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es el propósito principal de la gestión de proveedores?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -234,7 +234,7 @@ export default {
           id: 7,
           texto:
             '¿Qué expresa el <em>lead time</em> en un proceso de abastecimiento?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -267,7 +267,7 @@ export default {
         {
           id: 8,
           texto: '¿Cuál de los siguientes corresponde a un modo de transporte?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -300,7 +300,7 @@ export default {
           id: 9,
           texto:
             '¿Qué herramienta permite programar la reposición y el desplazamiento de productos en la red de distribución?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -333,7 +333,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es la finalidad principal del almacenamiento en la cadena de suministro?',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -367,7 +367,7 @@ export default {
           id: 11,
           texto:
             '¿Qué representan los inventarios dentro de la operación logística?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -401,7 +401,7 @@ export default {
           id: 12,
           texto:
             '¿Cuál es una característica de los costos variables en logística?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -435,7 +435,7 @@ export default {
           id: 13,
           texto:
             '¿Qué permite identificar el costeo basado en actividades (ABC)?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -468,7 +468,7 @@ export default {
         {
           id: 14,
           texto: '¿Qué refleja una operación logística eficiente?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -502,7 +502,7 @@ export default {
           id: 15,
           texto:
             '¿Qué finalidad tiene la proyección de la demanda en la cadena de suministro?',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -536,7 +536,7 @@ export default {
           id: 16,
           texto:
             '¿Cuál de los siguientes aspectos hace parte de la gestión de proveedores en la cadena de suministro?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -569,7 +569,7 @@ export default {
           id: 17,
           texto:
             '¿Qué caracteriza al transporte multimodal dentro de la operación logística?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -605,7 +605,7 @@ export default {
           id: 18,
           texto:
             '¿Qué función cumple el recibo de mercancías en el proceso logístico?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -639,7 +639,7 @@ export default {
           id: 19,
           texto:
             '¿Cuál es el propósito principal del costeo basado en actividades (ABC) en logística?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
@@ -674,7 +674,7 @@ export default {
           id: 20,
           texto:
             '¿Qué se entiende por eficiencia operativa en la cadena de suministro?',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
