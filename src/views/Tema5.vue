@@ -57,7 +57,6 @@
       span Costos relacionados con el almacenamiento en una operación logística
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
       table
-        caption Nota. SENA, (2026).
         thead
           tr(style="background-color: #DEF8FD")
             th Variable 
@@ -75,7 +74,7 @@
           tr(style="background-color: #F6F6F6")
             td #[strong Personal] 
             td(colspan="2") Corresponde al costo del talento humano encargado de recibir, almacenar, controlar, preparar y despachar las mercancías. 
-            td(colspan="2") Para atender un aumento de pedidos, una empresa incorpora operarios adicionales en picking y despacho, incrementando los costos de personal del almacén. 
+            td(colspan="2") Para atender un aumento de pedidos, una empresa incorpora operarios adicionales en #[em picking] y despacho, incrementando los costos de personal del almacén. 
           tr
             td #[strong Servicios y mantenimiento] 
             td(colspan="2") Reúne los gastos necesarios para conservar instalaciones y equipos funcionando adecuadamente, incluyendo energía, refrigeración, vigilancia y mantenimiento. 
@@ -207,7 +206,7 @@
       .col-lg-7
         .bg-secundario-s5.rounded-4.p-4.mb-4.mb-lg-0
           h5 Ejemplo empresarial:
-          p en Auteco, el manejo de repuestos para motocicletas exige registrar cada referencia que ingresa desde el proveedor, verificar cantidades, validar el estado del producto y ubicarlo según su clasificación en bodega. 
+          p En Auteco, el manejo de repuestos para motocicletas exige registrar cada referencia que ingresa desde el proveedor, verificar cantidades, validar el estado del producto y ubicarlo según su clasificación en bodega. 
           p.mb-0 Cuando un distribuidor o taller autorizado solicita un pedido, el sistema permite identificar existencias, preparar el despacho, validar referencias y generar los documentos de salida. Este control de inventarios fortalece la trazabilidad, reduce errores en el despacho y mejora el servicio al cliente. 
       .col-sm-10.col-lg-5
         figure

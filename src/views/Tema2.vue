@@ -44,7 +44,7 @@
       .row.justify-content-center.align-items-center.py-4.p-lg-0(titulo="Rotación")
         .col-lg-7
           p Organiza los productos según la frecuencia y velocidad con que ingresan y salen del inventario. Permite identificar referencias de alta, media o baja rotación y definir ubicación, niveles de existencias y estrategias de reposición. 
-          p.mb-4.mb-lg-0 #[strong Ejemplo:] las bebidas gaseosas pueden presentar alta rotación en supermercados, por lo que requieren reposición frecuente y ubicaciones que faciliten su preparación y despacho 
+          p.mb-4.mb-lg-0 #[strong Ejemplo:] las bebidas gaseosas pueden presentar alta rotación en supermercados, por lo que requieren reposición frecuente y ubicaciones que faciliten su preparación y despacho. 
         .col-sm-8.col-lg-4
           figure
             img(src='@/assets/curso/tema2/5.png', alt='')
@@ -140,12 +140,13 @@
                 p Reúnen productos o servicios que comparten características generales, usos o necesidades de consumo. Su clasificación facilita analizar demanda, rotación, espacio de almacenamiento y comportamiento comercial de grupos amplios del portafolio. 
                 p.mb-0 #[strong Ejemplo:] un supermercado puede manejar categorías como bebidas, alimentos refrigerados, aseo del hogar y cuidado personal, cada una con requerimientos logísticos particulares. 
               div.p-4
-                h4 Registrar novedades
-                p Registrar las diferencias, daños o inconsistencias en el sistema y notificar al área correspondiente para gestionar y dar solución.
-              div.p-4
                 h4 Soluciones 
                 p Integran productos y servicios para responder de manera conjunta a una necesidad específica del cliente. Su gestión requiere coordinar recursos, actividades y niveles de servicio para entregar una propuesta completa. 
                 p.mb-0 #[strong Ejemplo:] un operador logístico puede ofrecer una solución de almacenamiento, gestión de inventarios, preparación de pedidos, transporte y distribución para una empresa de comercio electrónico. 
+    
+    .bg-primario-p5.rounded-4.p-4.mb-4.mb-lg-5
+      p.mb-2 Desde la perspectiva logística, un portafolio amplio o diversificado exige mayor coordinación en inventarios, espacios, tiempos de reposición y procesos de despacho. 
+      p.mb-0 El empaque y el embalaje son elementos fundamentales en la integración logística, ya que protegen los productos, facilitan su manejo, almacenamiento y transporte, y aseguran que lleguen en óptimas condiciones al cliente. Aunque están relacionados, cumplen funciones distintas y complementarias: el empaque está en contacto directo con el producto, mientras que el embalaje agrupa varias unidades para facilitar su manipulación y distribución eficiente.
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
@@ -154,7 +155,6 @@
           span Características y relación del empaque y el embalaje
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/16-mob.png", alt="La figura explica la relación entre el empaque y el embalaje dentro de la operación logística, mostrando cómo ambos contribuyen a proteger y conservar los productos durante su recorrido. La secuencia evidencia su integración desde el acondicionamiento inicial de las unidades hasta su agrupación, manipulación, almacenamiento, transporte y entrega. En conjunto, estas actividades facilitan el manejo de la carga, reducen riesgos de daños y favorecen que los productos lleguen al cliente en condiciones adecuadas. ")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/16.png", alt="La figura explica la relación entre el empaque y el embalaje dentro de la operación logística, mostrando cómo ambos contribuyen a proteger y conservar los productos durante su recorrido. La secuencia evidencia su integración desde el acondicionamiento inicial de las unidades hasta su agrupación, manipulación, almacenamiento, transporte y entrega. En conjunto, estas actividades facilitan el manejo de la carga, reducen riesgos de daños y favorecen que los productos lleguen al cliente en condiciones adecuadas. ")
-        figcaption Nota. SENA, (2026).
 
     .bg-primario-p5.rounded-4.p-4.mb-4.mb-lg-5
       p.mb-0 La relación entre producto, servicio, portafolio, empaque y embalaje permite comprender que la cadena de suministro no solo moviliza mercancías, sino que gestiona una propuesta de valor que debe llegar al cliente en condiciones adecuadas de calidad, oportunidad y costo. 

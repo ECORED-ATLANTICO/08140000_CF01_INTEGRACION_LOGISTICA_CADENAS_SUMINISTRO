@@ -11,7 +11,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
         div.banner-text.shadow
-          p.mb-0 La operación logística implica el uso de recursos que deben ser controlados para garantizar rentabilidad y sostenibilidad empresarial. Analizar los costos logísticos y la eficiencia operativa permite identificar oportunidades de mejora, optimizar procesos y fortalecer la toma de decisiones dentro de la cadena de suministro. ç
+          p.mb-0 La operación logística implica el uso de recursos que deben ser controlados para garantizar rentabilidad y sostenibilidad empresarial. Analizar los costos logísticos y la eficiencia operativa permite identificar oportunidades de mejora, optimizar procesos y fortalecer la toma de decisiones dentro de la cadena de suministro.
 
     separador
 
@@ -29,7 +29,7 @@
           span Diferencia entre costos y gastos en el ámbito logístico
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema6/2-mob.png", alt="La figura presenta la diferencia entre los costos y los gastos dentro de una organización, destacando su relación con la gestión logística. Los costos están vinculados directamente con las actividades necesarias para movilizar, manipular, almacenar y proteger las mercancías, mientras que los gastos respaldan funciones administrativas, comerciales y financieras. Esta diferenciación permite comprender cómo ambos conceptos intervienen en el funcionamiento de la empresa y contribuyen al control de los recursos y a la sostenibilidad de sus operaciones. ")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema6/2.png", alt="La figura presenta la diferencia entre los costos y los gastos dentro de una organización, destacando su relación con la gestión logística. Los costos están vinculados directamente con las actividades necesarias para movilizar, manipular, almacenar y proteger las mercancías, mientras que los gastos respaldan funciones administrativas, comerciales y financieras. Esta diferenciación permite comprender cómo ambos conceptos intervienen en el funcionamiento de la empresa y contribuyen al control de los recursos y a la sostenibilidad de sus operaciones. ")
-        figcaption Nota. SENA, (2026).
+      
 
     p.mb-4(data-aos="fade-up") En las operaciones logísticas, los costos presentan comportamientos diferentes según el nivel de actividad de la empresa. Algunos permanecen relativamente constantes durante un periodo, mientras otros aumentan o disminuyen de acuerdo con el volumen almacenado, transportado o distribuido. A continuación, se presentan sus principales características y ejemplos de aplicación.
 
@@ -38,7 +38,6 @@
       span Tipos de costos en las operaciones logísticas
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
       table
-        caption Nota. SENA, (2026).
         thead
           tr(style="background-color: #DEF8FD")
             th Tipo de costo
@@ -181,7 +180,7 @@
             .col-sm-7
               p A continuación, se invita a ir al siguiente pódcast: 
               TarjetaAudio.color-secundario.mb-4(
-                texto="“Charlas logísticas”. Episodio: “Costos logísticos y eficiencia operativa”"
+                texto="<span style='font-style: normal !important;'>Charlas logísticas. Episodio: Costos logísticos y eficiencia operativa"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
               )

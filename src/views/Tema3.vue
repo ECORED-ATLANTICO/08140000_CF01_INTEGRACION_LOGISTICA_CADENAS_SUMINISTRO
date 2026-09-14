@@ -23,9 +23,9 @@
           figure
             img.imgw-110.mb-4.mb-lg-0(src="@/assets/curso/tema3/18.png", alt="" data-aos="zoom-in-down")
         .col-lg-10
-          p.mb-0 Los proveedores son entidades que aportan bienes y servicios a la empresa para cumplir con sus objetivos. Son fundamentales para la cadena de suministro, ya que proporcionan los recursos necesarios para la producción y distribución de productos.
-          p.mb-0 La gestión de proveedores es esencial para garantizar la continuidad del suministro, la calidad de los productos y el cumplimiento de los plazos de entrega.
-          p.mb-0 Para ello, es necesario establecer relaciones sólidas con los proveedores, definir sus roles y responsabilidades, y gestionar eficientemente las compras y abastecimiento.
+          p.mb-0 Los proveedores son los actores de la cadena de suministro encargados de suministrar materias primas, insumos, productos terminados o servicios requeridos por la organización para garantizar la continuidad de su operación.
+          p.mb-3 Su gestión es estratégica porque incide de manera directa en la calidad del abastecimiento, la disponibilidad de inventarios, los tiempos de respuesta, los costos logísticos y el cumplimiento de las promesas de valor al cliente.
+          p.mb-0 Los proveedores pueden clasificarse de acuerdo con las siguientes características:
 
     TabsC.color-acento-contenido.mb-4.mb-lg-5
       .p-4.row.justify-content-center.align-items-center(titulo="Tipo de bien o servicio suministrado")
@@ -165,9 +165,9 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/16.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p En este contexto, el análisis del lead time es un elemento crítico para la planeación logística. El lead time de pedido corresponde al tiempo transcurrido desde que se identifica la necesidad de compra y se emite la orden hasta que esta es procesada por el proveedor. Por su parte, el lead time de entrega comprende el tiempo que tarda el proveedor en despachar y hacer llegar el producto o servicio a la empresa, incluyendo las actividades de preparación, transporte y recepción. La suma de estos tiempos incide directamente en la programación de compras, la reposición de inventarios y la capacidad de respuesta frente a la demanda.
+        p En este contexto, el análisis del #[em lead time] es un elemento crítico para la planeación logística. El l#[em lead time] de pedido corresponde al tiempo transcurrido desde que se identifica la necesidad de compra y se emite la orden hasta que esta es procesada por el proveedor. Por su parte, el #[em lead time] de entrega comprende el tiempo que tarda el proveedor en despachar y hacer llegar el producto o servicio a la empresa, incluyendo las actividades de preparación, transporte y recepción. La suma de estos tiempos incide directamente en la programación de compras, la reposición de inventarios y la capacidad de respuesta frente a la demanda.
         .bg-contenido-a10.p-4.rounded-4.py-3
-          p.mb-0 Una gestión eficiente del lead time permite sincronizar el abastecimiento con los requerimientos de la operación, reducir tiempos muertos, evitar sobre inventarios y minimizar riesgos de desabastecimiento. 
+          p.mb-0 Una gestión eficiente del #[em lead time] permite sincronizar el abastecimiento con los requerimientos de la operación, reducir tiempos muertos, evitar sobre inventarios y minimizar riesgos de desabastecimiento. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
@@ -180,7 +180,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/17.png", alt="")
     
     .bg-primario-p5.p-4.rounded-4.mb-4
-      p.mb-0 En síntesis, las compras y el abastecimiento constituyen procesos clave dentro de la cadena de suministro, pues garantizan la disponibilidad de recursos para el desarrollo de la operación logística. Su articulación con el análisis del lead time favorece la planeación, la eficiencia operativa y la continuidad del servicio en contextos empresariales cada vez más dinámicos.
+      p.mb-0 En síntesis, las compras y el abastecimiento constituyen procesos clave dentro de la cadena de suministro, pues garantizan la disponibilidad de recursos para el desarrollo de la operación logística. Su articulación con el análisis del #[em lead time] favorece la planeación, la eficiencia operativa y la continuidad del servicio en contextos empresariales cada vez más dinámicos.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
@@ -207,7 +207,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5.mb-1 Administración de compras y abastecimiento.
-                  p.mb-0 Se invita al aprendiz a profundizar en proveedores, compras y abastecimiento, a través del siguiente libro (página 65-78): 
+                  p.mb-0 Se invita al aprendiz a profundizar en proveedores, compras y abastecimiento, a través del siguiente libro (páginas 65 - 78): 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://gc.scalahed.com/recursos/files/r161r/w24118w/AdmComprasAbasteS2.pdf" target="_blank")
                     span Ir al recurso

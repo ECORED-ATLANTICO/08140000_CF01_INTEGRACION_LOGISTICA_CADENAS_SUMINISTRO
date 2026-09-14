@@ -32,9 +32,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Integración entre los medios y modos de transporte
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema6/2-mob.png", alt="La figura presenta la integración entre los medios y modos de transporte utilizados para movilizar mercancías dentro de la cadena de suministro. Muestra cómo los diferentes vehículos operan sobre infraestructuras y sistemas específicos para conectar los puntos de origen y destino. Esta relación permite seleccionar alternativas de transporte acordes con las características de cada operación, considerando aspectos relacionados con distancia, capacidad de carga, oportunidad de entrega, infraestructura, costos y condiciones del mercado.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema6/2.png", alt="La figura presenta la integración entre los medios y modos de transporte utilizados para movilizar mercancías dentro de la cadena de suministro. Muestra cómo los diferentes vehículos operan sobre infraestructuras y sistemas específicos para conectar los puntos de origen y destino. Esta relación permite seleccionar alternativas de transporte acordes con las características de cada operación, considerando aspectos relacionados con distancia, capacidad de carga, oportunidad de entrega, infraestructura, costos y condiciones del mercado.")
-        figcaption Nota. SENA, (2026).
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/3-mob.png", alt="La figura presenta la integración entre los medios y modos de transporte utilizados para movilizar mercancías dentro de la cadena de suministro. Muestra cómo los diferentes vehículos operan sobre infraestructuras y sistemas específicos para conectar los puntos de origen y destino. Esta relación permite seleccionar alternativas de transporte acordes con las características de cada operación, considerando aspectos relacionados con distancia, capacidad de carga, oportunidad de entrega, infraestructura, costos y condiciones del mercado.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/3.png", alt="La figura presenta la integración entre los medios y modos de transporte utilizados para movilizar mercancías dentro de la cadena de suministro. Muestra cómo los diferentes vehículos operan sobre infraestructuras y sistemas específicos para conectar los puntos de origen y destino. Esta relación permite seleccionar alternativas de transporte acordes con las características de cada operación, considerando aspectos relacionados con distancia, capacidad de carga, oportunidad de entrega, infraestructura, costos y condiciones del mercado.")
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-10.col-lg-5
@@ -80,7 +79,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/8.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p Estas modalidades amplían la capacidad de cobertura y permiten adaptar el transporte a las características del producto, del mercado y de la infraestructura disponible
+        p Estas modalidades amplían la capacidad de cobertura y permiten adaptar el transporte a las características del producto, del mercado y de la infraestructura disponible.
         .bg-secundario-s5.rounded-4.p-4.mb-4.py-3
           p.mb-0 La relación entre las partes involucradas en la movilización de mercancías se formaliza a través del contrato de transporte, documento o acuerdo mediante el cual se establecen las condiciones del servicio, las responsabilidades del transportador y del remitente, los tiempos de entrega, el tipo de carga, lo costos, las obligaciones de custodia y las condiciones frente a pérdida, daño o retraso. Su adecuada definición brinda seguridad jurídica a la operación y facilita el control del servicio prestado. En consecuencia, el transporte constituye un eje articulador de la operación logística, en tanto conecta físicamente los eslabones de la cadena de suministro y garantiza el flujo oportuno de bienes entre los diferentes actores del sistema.
 
@@ -88,7 +87,7 @@
       .col-lg-7
         .bg-primario-p5.rounded-4.p-4.mb-4.mb-lg-0
           h5 Ejemplo empresarial:
-          p en Homecenter, la distribución de muebles, materiales de construcción, artículos para el hogar y pedidos de comercio electrónico requiere movilizar mercancías desde centros de abastecimiento hacia tiendas y clientes finales, principalmente mediante transporte terrestre. 
+          p En Homecenter, la distribución de muebles, materiales de construcción, artículos para el hogar y pedidos de comercio electrónico requiere movilizar mercancías desde centros de abastecimiento hacia tiendas y clientes finales, principalmente mediante transporte terrestre. 
           p.mb-0 Para esta operación intervienen vehículos de diferentes capacidades, rutas regionales y operadores logísticos contratados, bajo acuerdos que definen tiempos de entrega, custodia, condiciones del servicio y responsabilidades frente a la mercancía. Esto permite articular la red de transporte con la promesa de entrega de la compañía. 
       .col-sm-10.col-lg-5
         figure
@@ -112,7 +111,6 @@
       span Sistemas de distribución
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
       table
-        caption Nota. SENA, (2026).
         thead
           tr(style="background-color: #DEF8FD")
             th Sistema de distribución
@@ -170,7 +168,6 @@
       span Aspectos del transporte y la distribución regulados por la legislación en Colombia 
     .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
       table
-        caption Nota. SENA, (2026).
         thead
           tr(style="background-color: #DEF8FD")
             th Aspecto 
@@ -233,7 +230,7 @@
       .col-lg-7
         p El conocimiento de este marco normativo es esencial para reducir riesgos operativos, evitar sanciones y garantizar la legalidad de la operación logística.
         .bg-contenido-a10.rounded-4.p-4.py-3
-          p.mb-0 En síntesis, la distribución articula el cierre operativo de la cadena de suministro al conectar el producto con el cliente final. Su relación con el DRP, el marketing logístico y la normativa aplicable fortalece la eficiencia, la trazabilidad y el cumplimiento de la promesa de servicio de la organización. 
+          p.mb-0 En síntesis, la distribución articula el cierre operativo de la cadena de suministro al conectar el producto con el cliente final. Su relación con el DRP, el #[em marketing] logístico y la normativa aplicable fortalece la eficiencia, la trazabilidad y el cumplimiento de la promesa de servicio de la organización. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
@@ -269,7 +266,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5.mb-1 Administración de compras y abastecimiento.
-                  p.mb-0 Se invita al aprendiz a profundizar en transporte y distribución en la operación logística, tal como se muestra en el siguiente libro (página 172-180): 
+                  p.mb-0 Se invita al aprendiz a profundizar en transporte y distribución en la operación logística, tal como se muestra en el siguiente libro (páginas 172 - 180): 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://gc.scalahed.com/recursos/files/r161r/w25775w/L1LT123_S1_01.pdf" target="_blank")
                     span Ir al recurso

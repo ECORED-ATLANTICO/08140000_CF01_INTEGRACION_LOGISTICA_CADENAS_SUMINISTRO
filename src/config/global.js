@@ -28,7 +28,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Concepto, nodos, y flujos logísticos ',
+            titulo: 'Concepto, nodos y flujos logísticos ',
             hash: 't_1_1',
           },
           {
@@ -159,7 +159,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/08140000_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -323,18 +323,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Sergio Quintero Guzmán',
+          cargo: 'Experto temático ',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jair Coll Gallardo',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

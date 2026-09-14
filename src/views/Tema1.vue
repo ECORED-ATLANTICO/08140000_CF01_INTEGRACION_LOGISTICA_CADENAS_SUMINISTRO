@@ -16,7 +16,7 @@
     separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1 Concepto, nodos, y flujos logísticos 
+      h2 1.1 Concepto, nodos y flujos logísticos 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-10.col-lg-5
@@ -171,7 +171,7 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/11.png", alt="")
 
-    p.mb-4.mb-lg-5 En consecuencia, comprender la estructura de la red de suministro, sus nodos, y flujos logísticos constituye una base esencial para interpretar el funcionamiento de la cadena de suministro y analizar su impacto en la planeación, la operación y la competitividad empresarial.
+    p.mb-4.mb-lg-5 En consecuencia, comprender la estructura de la red de suministro, sus nodos y flujos logísticos, constituye una base esencial para interpretar el funcionamiento de la cadena de suministro y analizar su impacto en la planeación, la operación y la competitividad empresarial.
 
     .row.justify-content-center.align-items-center
       .col-sm-8.col-lg-4
@@ -259,7 +259,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/16.png", alt="")
     
     p La gestión de la cadena de suministro también incorpora principios de coordinación interorganizacional, uso de tecnologías de información, trazabilidad, visibilidad de inventarios y análisis de indicadores logísticos. Esto permite mejorar la toma de decisiones, anticipar variaciones en la demanda, fortalecer la capacidad de respuesta y mantener la continuidad operativa de la empresa. 
-    p.mb-4.mb-lg-5 En síntesis, el Supply Chain Management (SCM)  constituye el marco de referencia para comprender la integración de los procesos logísticos dentro de la organización, facilitando la gestión eficiente de la red de suministro y el cumplimiento de los objetivos empresariales.
+    p.mb-4.mb-lg-5 En síntesis, el <em>Supply Chain Management</em> (SCM)  constituye el marco de referencia para comprender la integración de los procesos logísticos dentro de la organización, facilitando la gestión eficiente de la red de suministro y el cumplimiento de los objetivos empresariales.
 
     .bg-secundario-s5.p-4.rounded-4.mb-4.mb-lg-5
       p #[strong Ejemplo empresarial:] en Alkosto, la gestión de la cadena de suministro exige coordinar compras con múltiples proveedores, recibir mercancías en centros de distribución o tiendas, controlar inventarios, programar transporte y atender tanto el canal físico como el comercio electrónico.  
@@ -308,9 +308,9 @@
               figure
                 img.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="" data-aos="zoom-in-down")
             .col-sm-7
-              p A continuación, se invita a ir al siguiente podcast:  
+              p A continuación, se invita a ir al siguiente pódcast:  
               TarjetaAudio.color-secundario.mb-4(
-                texto="Transporte y distribución en la cadena de suministro"
+                texto="<span style='font-style: normal !important;'>Transporte y distribución en la cadena de suministro"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
               )
