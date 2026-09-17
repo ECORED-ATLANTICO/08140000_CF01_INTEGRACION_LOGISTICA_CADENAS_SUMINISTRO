@@ -73,7 +73,7 @@
     .bg-botones-a5.rounded-4.p-4.mb-4.mb-lg-5
       .row.justify-content-center.align-items-center
         .col-lg-10.col-xl-11
-          p.mb-0 En el contexto logístico, los servicios pueden diferenciarse según cómo responden a las necesidades del cliente y a las condiciones de la operación. Aspectos como la estandarización, personalización, rapidez y modalidad de entrega determinan el nivel de servicio ofrecido y los recursos necesarios para cumplirlo
+          p.mb-0 En el contexto logístico, los servicios pueden diferenciarse según cómo responden a las necesidades del cliente y a las condiciones de la operación. Aspectos como la estandarización, personalización, rapidez y modalidad de entrega determinan el nivel de servicio ofrecido y los recursos necesarios para cumplirlo.
         .col-4.col-lg-2.col-xl-1.d-none.d-lg-block
           img.imgw-75(src="@/assets/curso/tema2/9.png", alt="" data-aos="zoom-in-down")
 

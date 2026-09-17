@@ -165,7 +165,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/16.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
-        p En este contexto, el análisis del #[em lead time] es un elemento crítico para la planeación logística. El l#[em lead time] de pedido corresponde al tiempo transcurrido desde que se identifica la necesidad de compra y se emite la orden hasta que esta es procesada por el proveedor. Por su parte, el #[em lead time] de entrega comprende el tiempo que tarda el proveedor en despachar y hacer llegar el producto o servicio a la empresa, incluyendo las actividades de preparación, transporte y recepción. La suma de estos tiempos incide directamente en la programación de compras, la reposición de inventarios y la capacidad de respuesta frente a la demanda.
+        p En este contexto, el análisis del #[em lead time] es un elemento crítico para la planeación logística. El #[em lead time] de pedido corresponde al tiempo transcurrido desde que se identifica la necesidad de compra y se emite la orden hasta que esta es procesada por el proveedor. Por su parte, el #[em lead time] de entrega comprende el tiempo que tarda el proveedor en despachar y hacer llegar el producto o servicio a la empresa, incluyendo las actividades de preparación, transporte y recepción. La suma de estos tiempos incide directamente en la programación de compras, la reposición de inventarios y la capacidad de respuesta frente a la demanda.
         .bg-contenido-a10.p-4.rounded-4.py-3
           p.mb-0 Una gestión eficiente del #[em lead time] permite sincronizar el abastecimiento con los requerimientos de la operación, reducir tiempos muertos, evitar sobre inventarios y minimizar riesgos de desabastecimiento. 
 
