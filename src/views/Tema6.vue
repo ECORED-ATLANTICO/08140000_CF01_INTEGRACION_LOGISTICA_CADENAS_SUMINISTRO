@@ -178,11 +178,11 @@
               figure
                 img.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="" data-aos="zoom-in-down")
             .col-sm-7
-              p A continuación, se invita a ir al siguiente pódcast: 
+              p A continuación, se invita a consultar el siguiente pódcast: 
               TarjetaAudio.color-secundario.mb-4(
                 texto="<span style='font-style: normal !important;'>Charlas logísticas. Episodio: Costos logísticos y eficiencia operativa"
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/Podcast2.mp3')"
               )
 
 </template>

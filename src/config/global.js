@@ -253,52 +253,52 @@ export default {
   referencias: [
     {
       referencia:
-        'Anaya Tejero, J. J. (2015). <em>Logística integral: la gestión operativa de la empresa</em> (5.ª ed.). ESIC Editorial.',
+        'Anaya Tejero, J. J. (2015). Logística integral: la gestión operativa de la empresa (5.ª ed.). ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Bowersox, D. J., Closs, D. J., & Cooper, M. B. (2007). <em>Administración y logística en la cadena de suministros</em> (2.ª ed.). McGraw-Hill Interamericana.',
+        'Bowersox, D. J., Closs, D. J., & Cooper, M. B. (2007). Administración y logística en la cadena de suministros (2.ª ed.). McGraw-Hill Interamericana.',
       link: '',
     },
     {
       referencia:
-        'Chopra, S., & Meindl, P. (2008). <em>Administración de la cadena de suministro: estrategia, planeación y operación</em> (3.ª ed.). Pearson Educación.',
+        'Chopra, S., & Meindl, P. (2008). Administración de la cadena de suministro: estrategia, planeación y operación (3.ª ed.). Pearson Educación.',
       link: 'https://gc.scalahed.com/recursos/files/r161r/w24567w/Sunil_Chopral.pdf',
     },
     {
       referencia:
-        'Christopher, M. (2018). <em>Logística y gestión de la cadena de suministro</em> (5.ª ed.). Pearson Educación.',
+        'Christopher, M. (2018). Logística y gestión de la cadena de suministro (5.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC). (2020). <em>Normas técnicas aplicables al empaque, embalaje y rotulado de mercancías</em>.',
+        'Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC). (2020). Normas técnicas aplicables al empaque, embalaje y rotulado de mercancías.',
       link: 'https://www.icontec.org',
     },
     {
       referencia:
-        'Ministerio de Transporte de Colombia. <em>Documentos técnicos sobre logística y transporte de carga</em>.',
+        'Ministerio de Transporte de Colombia. Documentos técnicos sobre logística y transporte de carga.',
       link: 'https://www.mintransporte.gov.co',
     },
     {
       referencia:
-        'Mora García, L. A. (2023). <em>Gestión logística integral: las mejores prácticas en la cadena de abastecimiento</em> (3.ª ed.). Ecoe Ediciones.',
+        'Mora García, L. A. (2023). Gestión logística integral: las mejores prácticas en la cadena de abastecimiento (3.ª ed.). Ecoe Ediciones.',
       link: 'https://www.ecoeediciones.com/wp-content/uploads/2023/01/9789585035676-9789585035683-Gestion-logistica-integral.-Las-mejores-practicas-en-la-cadena-de-abastecimiento-3ra-edicion-contenido.pdf',
     },
     {
       referencia:
-        'Paternina Arboleda, C., Alfaro Díaz, J., & Mendoza Roca, C. (2015). <em>Manual práctico para gestión logística: envase y embalaje, transporte y cadena de frío</em>. Editorial Universidad del Norte.',
+        'Paternina Arboleda, C., Alfaro Díaz, J., & Mendoza Roca, C. (2015). Manual práctico para gestión logística: envase y embalaje, transporte y cadena de frío. Editorial Universidad del Norte.',
       link: '',
     },
     {
       referencia:
-        'Superintendencia de Industria y Comercio. (2023). <em>Etiquetado y rotulado de productos en Colombia</em>.',
+        'Superintendencia de Industria y Comercio. (2023). Etiquetado y rotulado de productos en Colombia.',
       link: 'https://www.sic.gov.co',
     },
     {
       referencia:
-        'Torres Rabello, J. (2014). <em>Logística: conceptos y tendencias</em>. Editorial RIL.',
+        'Torres Rabello, J. (2014). Logística: conceptos y tendencias. Editorial RIL.',
       link: '',
     },
   ],
@@ -364,12 +364,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -379,7 +379,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
