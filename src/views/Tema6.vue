@@ -180,9 +180,9 @@
             .col-sm-7
               p A continuación, se invita a consultar el siguiente pódcast: 
               TarjetaAudio.color-secundario.mb-4(
-                texto="<span style='font-style: normal !important;'>Charlas logísticas. Episodio: Costos logísticos y eficiencia operativa"
+                texto="<span style='font-style: normal !important;'>Charlas logísticas. Episodio: Costos logísticos y eficiencia operativa" 
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/Podcast2.mp3')"
+                :audio="require_src('@//assets/curso/podcast/Podcast2.mp3')"
               )
 
 </template>

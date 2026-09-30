@@ -310,11 +310,10 @@
             .col-sm-7
               p A continuación, se invita a consultar el siguiente pódcast:  
               TarjetaAudio.color-secundario.mb-4(
-                texto="<span style='font-style: normal !important;'>Transporte y distribución en la cadena de suministro"
+                texto='<span style="font-style: normal !important;">Transporte y distribución en la cadena de suministroa"</span>'
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/Podcast1.mp3')"
+                :audio="require_src('@//assets/curso/podcast/podcast1.mp3')"
               )
-
 
 
 
