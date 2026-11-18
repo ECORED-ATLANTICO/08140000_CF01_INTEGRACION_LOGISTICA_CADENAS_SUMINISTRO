@@ -258,7 +258,7 @@
                   h5.mb-1 Planeación de la demanda en la cadena de suministro
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con productos, servicios y demanda en la cadena de suministro: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=QKxiR3Uq4G0" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.youtube.com/watch?v=QKxiR3Uq4G0" target="_blank")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4
@@ -271,9 +271,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5.mb-1 Sistema de proyección de la demanda. Caso práctico de predicción automatizada en empresas de venta por catálogo.
-                  p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a productos, servicios y demanda en la cadena de suministro, a través del siguiente artículo: 
+                  p.mb-0 Se invita al aprendiz a profundizar en lo relacionado con productos, servicios y demanda en la cadena de suministro, a través del siguiente artículo: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.redalyc.org/pdf/6722/672271530002.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.redalyc.org/pdf/6722/672271530002.pdf" target="_blank")
                     span Ir al recurso
 
 

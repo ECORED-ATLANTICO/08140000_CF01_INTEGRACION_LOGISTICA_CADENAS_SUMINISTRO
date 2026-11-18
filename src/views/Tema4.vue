@@ -81,7 +81,7 @@
       .col-lg-7
         p Estas modalidades amplían la capacidad de cobertura y permiten adaptar el transporte a las características del producto, del mercado y de la infraestructura disponible.
         .bg-secundario-s5.rounded-4.p-4.mb-4.py-3
-          p.mb-0 La relación entre las partes involucradas en la movilización de mercancías se formaliza a través del contrato de transporte, documento o acuerdo mediante el cual se establecen las condiciones del servicio, las responsabilidades del transportador y del remitente, los tiempos de entrega, el tipo de carga, lo costos, las obligaciones de custodia y las condiciones frente a pérdida, daño o retraso. Su adecuada definición brinda seguridad jurídica a la operación y facilita el control del servicio prestado. En consecuencia, el transporte constituye un eje articulador de la operación logística, en tanto conecta físicamente los eslabones de la cadena de suministro y garantiza el flujo oportuno de bienes entre los diferentes actores del sistema.
+          p.mb-0 La relación entre las partes involucradas en la movilización de mercancías se formaliza a través del contrato de transporte, documento o acuerdo mediante el cual se establecen las condiciones del servicio, las responsabilidades del transportador y del remitente, los tiempos de entrega, el tipo de carga, los costos, las obligaciones de custodia y las condiciones frente a pérdida, daño o retraso. Su adecuada definición brinda seguridad jurídica a la operación y facilita el control del servicio prestado. En consecuencia, el transporte constituye un eje articulador de la operación logística, en tanto conecta físicamente los eslabones de la cadena de suministro y garantiza el flujo oportuno de bienes entre los diferentes actores del sistema.
 
     .row.justify-content-center.align-items-center
       .col-lg-7
@@ -152,7 +152,7 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/11.png", alt="" data-aos="zoom-in-down")
       .col-lg-7
         p La elección del sistema adecuado depende de la estrategia comercial de la organización y de la capacidad operativa disponible. 
-        p.mb-0 En este marco, la planeación de requerimientos de distribución (DRP, #[em Distribution Requirements Planning]) constituye una herramienta que permite programar la reposición y el desplazamiento de productos dentro de la red logística, tomando como base la demanda esperada, los niveles de inventario, los tiempos de entrega y la capacidad de abastecimiento. Su propósito es coordinar la disponibilidad de mercancías en los distintos puntos de la red, evitando faltantes, sobre inventarios o retrasos en el cumplimiento de pedidos. El DRP facilita la articulación entre inventarios, transporte y distribución, mejorando la eficiencia operativa de la empresa. 
+        p.mb-0 En este marco, la planeación de requerimientos de distribución (DRP, #[em Distribution Requirements Planning]) constituye una herramienta que permite programar la reposición y el desplazamiento de productos dentro de la red logística, tomando como base la demanda esperada, los niveles de inventario, los tiempos de entrega y la capacidad de abastecimiento. Su propósito es coordinar la disponibilidad de mercancías en los distintos puntos de la red, evitando faltantes, sobreinventarios o retrasos en el cumplimiento de pedidos. El DRP facilita la articulación entre inventarios, transporte y distribución, mejorando la eficiencia operativa de la empresa. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
@@ -177,49 +177,49 @@
           tr(style="background-color: #F6F6F6")
             td #[strong Movilización de mercancías]
             td(colspan="2")
-              p.mb-0 Ley 105 de 1993, Ley 336 de 1996 y Decreto 1079 de 2015. 
+              p.mb-0 Ley 105 de 1993, Ley 336 de 1996, Decreto 1079 de 2015 y Decreto 1017 de 2025
               p.mb-0 Ministerio de Transporte y Superintendencia de Transporte.
             td(colspan="2") Regulan las condiciones generales para movilizar mercancías y prestar servicios de transporte. 
           tr
             td #[strong Documentación] 
             td(colspan="2")
-              p.mb-0 Decreto 1079 de 2015 y normativa vigente del Registro Nacional de Despachos de Carga (RNDC). 
+              p.mb-0 Decreto 1079 de 2015, Decreto 1017 de 2025 y Resolución 20263040016075 de 2026. 
               p.mb-0 Ministerio de Transporte y Superintendencia de Transporte. 
             td(colspan="2") Establecen requisitos para registrar y soportar documentalmente las operaciones de transporte terrestre de carga. 
           tr(style="background-color: #F6F6F6")
             td #[strong Condiciones de seguridad]
             td(colspan="2") 
-              p.mb-0 Ley 769 de 2002 y Decreto 1079 de 2015. 
+              p.mb-0 Ley 769 de 2002, Ley 1503 de 2011, Ley 2251 de 2022 y Resolución 20223040040595 de 2022.  
               p.mb-0 Ministerio de Transporte, Agencia Nacional de Seguridad Vial y Autoridades de Tránsito. 
-            td(colspan="2") Establecen la movilización segura de la carga, vehículos y demás actores involucrados en la operación. 
+            td(colspan="2") Orientan la movilización segura de la carga, vehículos y demás actores involucrados en la operación. 
           tr
             td #[strong Habilitación de vehículos y operación]
             td(colspan="2") 
-              p.mb-0 Ley 336 de 1996, Ley 769 de 2002 y Decreto 1079 de 2015. 
+              p.mb-0 Ley 336 de 1996, Decreto 1079 de 2015 y Decreto 1017 de 2025. 
               p.mb-0 Ministerio de Transporte, RUNT y Organismos de Tránsito. 
             td(colspan="2") Determinan requisitos de operación, registro, condiciones técnicas y documentación aplicable a empresas y vehículos. 
           tr(style="background-color: #F6F6F6")
             td #[strong Responsabilidad contractual]
             td(colspan="2") 
-              p.mb-0 Código de Comercio – Decreto 410 de 1971 y Decreto 1079 de 2015. 
+              p.mb-0 Código de Comercio (Decreto 410 de 1971) y Decreto 1079 de 2015. 
               p.mb-0 Superintendencia de Transporte y Autoridades Competentes. 
             td(colspan="2") Establecen obligaciones y responsabilidades relacionadas con recepción, transporte, custodia y entrega de mercancías. 
           tr
             td #[strong Seguros]
             td(colspan="2") 
-              p.mb-0 Código de Comercio y Ley 769 de 2002. 
+              p.mb-0 Código de Comercio, Ley 769 de 2002 y normativa vigente sobre SOAT. 
               p.mb-0 Superintendencia Financiera de Colombia y Ministerio de Transporte. 
             td(colspan="2") Regulan aspectos relacionados con aseguramiento, SOAT y coberturas frente a riesgos asociados con la operación. 
           tr(style="background-color: #F6F6F6")
             td #[strong Tránsito]
             td(colspan="2") 
-              p.mb-0 Ley 769 de 2002 – Código Nacional de Tránsito y sus modificaciones. 
+              p.mb-0 Ley 769 de 2002 y sus modificaciones, incluidas las leyes 1383 de 2010, 2251 de 2022 y 2283 de 2023. 
               p.mb-0 Ministerio de Transporte, Policía de Tránsito y Organismos Territoriales de Tránsito. 
             td(colspan="2") Define las condiciones para la circulación y operación segura de los vehículos en las vías. 
           tr
             td #[strong Normas técnicas]
             td(colspan="2")
-              p.mb-0 Reglamentos técnicos y NTC aplicables según producto y operación. 
+              p.mb-0 Reglamentos técnicos y NTC aplicables según el producto y la operación. 
               p.mb-0 Ministerios competentes, Superintendencia de Industria y Comercio (SIC) e ICONTEC. 
             td(colspan="2") Establecen requisitos técnicos relacionados con vehículos, productos, empaques, embalajes, rotulado y seguridad, según corresponda. 
 
@@ -253,7 +253,7 @@
                   h5.mb-1 Curso: gestión de transporte y distribución.
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con transporte y distribución en la operación logística: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=1G7di_eJ8bI" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.youtube.com/watch?v=1G7di_eJ8bI" target="_blank")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4
@@ -266,9 +266,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5.mb-1 Administración de compras y abastecimiento.
-                  p.mb-0 Se invita al aprendiz a profundizar en transporte y distribución en la operación logística, tal como se muestra en el siguiente libro (páginas 172 - 180): 
+                  p.mb-0 Se invita al aprendiz a profundizar en transporte y distribución en la operación logística, tal como se muestra en el siguiente libro (páginas 172 -180): 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://gc.scalahed.com/recursos/files/r161r/w25775w/L1LT123_S1_01.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://gc.scalahed.com/recursos/files/r161r/w25775w/L1LT123_S1_01.pdf" target="_blank")
                     span Ir al recurso
 
 

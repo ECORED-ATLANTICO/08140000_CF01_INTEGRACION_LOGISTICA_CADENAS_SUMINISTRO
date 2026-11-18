@@ -20,7 +20,7 @@
 
     .bg-primario-p5.rounded-4.p-4.mb-4(data-aos="fade-up")
       p.mb-0 Los costos logísticos corresponden al conjunto de recursos económicos que una organización destina para ejecutar las actividades relacionadas con el abastecimiento, almacenamiento, transporte, distribución, gestión de inventarios y servicio al cliente dentro de la cadena de suministro. Su análisis es fundamental porque permite comprender cuánto cuesta movilizar, conservar y entregar los productos, así como identificar oportunidades de mejora en la operación. 
-    p.mb-4.mb-lg-5 En el ámbito logístico, es importante diferenciar entre costos y gastos. A continuación, se muestra cual es la diferencia y la relación que tienen: 
+    p.mb-4.mb-lg-5 En el ámbito logístico, es importante diferenciar entre costos y gastos. A continuación, se muestra cuál es la diferencia y la relación que tienen: 
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
@@ -145,10 +145,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-1 Webinar "Costos Logísticos, cómo calcularlos y su importancia para la operación"
+                  h5.mb-1 Webinar "Costos logísticos, cómo calcularlos y su importancia para la operación"
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con costos logísticos y eficiencia operativa: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=eD6VqdcMwdk" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.youtube.com/watch?v=eD6VqdcMwdk" target="_blank")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4
@@ -163,7 +163,7 @@
                   h5.mb-1 Costos logísticos y metodologías para el costeo en cadenas de suministro: una revisión de la literatura
                   p.mb-0 Se invita al aprendiz a profundizar con costos logísticos y eficiencia operativa, a través del siguiente artículo: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.redalyc.org/pdf/3836/383668911007.pdf " target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.redalyc.org/pdf/3836/383668911007.pdf " target="_blank")
                     span Ir al recurso
 
 

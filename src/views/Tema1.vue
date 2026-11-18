@@ -147,7 +147,7 @@
     .bg-primario-p5.p-4.rounded-4.mb-4.mb-lg-5
       .row.justify-content-center.align-items-center
         .col-xl-11
-          p.mb-0 Los flujos logísticos hacen referencia al movimiento coordinado de productos, materiales, información y recursos entre los diferentes actores y nodos y de la cadena de suministro. Permiten conectar las operaciones desde el abastecimiento hasta la entrega al cliente y, cuando corresponde, gestionar los retornos hacia etapas anteriores de la cadena. En la cadena de suministro circulan cuatro flujos fundamentales, que son:
+          p.mb-0 Los flujos logísticos hacen referencia al movimiento coordinado de productos, materiales, información y recursos entre los diferentes actores y nodos de la cadena de suministro. Permiten conectar las operaciones desde el abastecimiento hasta la entrega al cliente y, cuando corresponde, gestionar los retornos hacia etapas anteriores de la cadena. En la cadena de suministro circulan cuatro flujos fundamentales, que son:
         .col-lg-1.d-none.d-xl-block
           figure
             img(src='@/assets/curso/tema1/caja-2.png', alt='')
@@ -278,7 +278,7 @@
                   h5.mb-1 Logística y cadenas de suministro: ¿cómo influyen en la vida cotidiana?
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con redes de suministro y cadenas de suministro: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=Y2PmCXeKe2U" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.youtube.com/watch?v=Y2PmCXeKe2U" target="_blank")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4
@@ -293,7 +293,7 @@
                   h5.mb-1 Introducción a la logistica
                   p.mb-0 Se invita al aprendiz a profundizar en redes de suministro y cadenas de suministro, a través del siguiente artículo:
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="http://virtual.umng.edu.co/distancia/ecosistema/ovas/administracion_empresas/logistica/unidad_1/DM.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="http://virtual.umng.edu.co/distancia/ecosistema/ovas/administracion_empresas/logistica/unidad_1/DM.pdf" target="_blank")
                     span Ir al recurso
 
 

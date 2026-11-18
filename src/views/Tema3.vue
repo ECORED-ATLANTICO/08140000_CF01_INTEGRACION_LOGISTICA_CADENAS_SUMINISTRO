@@ -167,7 +167,7 @@
       .col-lg-7
         p En este contexto, el análisis del #[em lead time] es un elemento crítico para la planeación logística. El #[em lead time] de pedido corresponde al tiempo transcurrido desde que se identifica la necesidad de compra y se emite la orden hasta que esta es procesada por el proveedor. Por su parte, el #[em lead time] de entrega comprende el tiempo que tarda el proveedor en despachar y hacer llegar el producto o servicio a la empresa, incluyendo las actividades de preparación, transporte y recepción. La suma de estos tiempos incide directamente en la programación de compras, la reposición de inventarios y la capacidad de respuesta frente a la demanda.
         .bg-contenido-a10.p-4.rounded-4.py-3
-          p.mb-0 Una gestión eficiente del #[em lead time] permite sincronizar el abastecimiento con los requerimientos de la operación, reducir tiempos muertos, evitar sobre inventarios y minimizar riesgos de desabastecimiento. 
+          p.mb-0 Una gestión eficiente del #[em lead time] permite sincronizar el abastecimiento con los requerimientos de la operación, reducir tiempos muertos, evitar sobreinventarios y minimizar riesgos de desabastecimiento. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
@@ -194,7 +194,7 @@
                   h5.mb-1 Curso: gestión de compras y abastecimiento.
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con proveedores, compras y abastecimiento: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=NsyoTPh1mcU" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.youtube.com/watch?v=NsyoTPh1mcU" target="_blank")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4
@@ -207,9 +207,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5.mb-1 Administración de compras y abastecimiento.
-                  p.mb-0 Se invita al aprendiz a profundizar en proveedores, compras y abastecimiento, a través del siguiente libro (páginas 65 - 78): 
+                  p.mb-0 Se invita al aprendiz a profundizar en proveedores, compras y abastecimiento, a través del siguiente libro (páginas 65-78): 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://gc.scalahed.com/recursos/files/r161r/w24118w/AdmComprasAbasteS2.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://gc.scalahed.com/recursos/files/r161r/w24118w/AdmComprasAbasteS2.pdf" target="_blank")
                     span Ir al recurso
 
 </template>

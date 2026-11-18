@@ -224,7 +224,7 @@
                   h5.mb-1 Curso gestión de almacenes e inventarios
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con almacenamiento e inventarios: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=p4HfinYEW_Q" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.youtube.com/watch?v=p4HfinYEW_Q" target="_blank")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4
@@ -239,7 +239,7 @@
                   h5.mb-1 Administración del inventario: elemento clave para la optimización de las utilidades en las empresas
                   p.mb-0 Se invita al aprendiz a profundizar en almacenamiento e inventarios, a través del artículo: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.redalyc.org/pdf/4655/465545892008.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco.justify-content-center(href="https://www.redalyc.org/pdf/4655/465545892008.pdf" target="_blank")
                     span Ir al recurso
 
 </template>
